@@ -1,0 +1,10 @@
+{
+  "name": "@toytoy/themes",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "esbuild src/index.js --minify --format=cjs --bundle --outfile=dist/index.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.16.17"
+  }
+}

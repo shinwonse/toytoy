@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { ThemeProvider } from "@emotion/react";
-import { vars } from '@toytoy/themes';
+import { vars, classes } from '@toytoy/themes';
 import styled from "@emotion/styled";
 
 function App() {
@@ -41,8 +41,6 @@ const View = () => {
 }
 
 const Text = styled.p`
-  color: ${({ theme }) => {
-    // @ts-ignore
-    return theme.colors.red[900];
-  }};
+  ${classes.typography.heading["4xl"]}
+  color: ${vars.colors.$static.light.red[500]};
 `

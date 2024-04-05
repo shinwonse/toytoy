@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build @toytoy/themes",
+    "startTime": "2024-04-05T14:16:13.076Z",
+    "endTime": "2024-04-05T14:16:17.607Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@toytoy/themes:build",
+      "target": "build",
+      "projectName": "@toytoy/themes",
+      "hash": "16533345440092249353",
+      "startTime": "2024-04-05T14:16:13.079Z",
+      "endTime": "2024-04-05T14:16:17.607Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

@@ -7,7 +7,10 @@
   ],
   "scripts": {
     "build": "nx build",
-    "graph": "nx run-many --target=build --graph"
+    "graph": "nx run-many --target=build --graph",
+    "dev:all": "yarn dev:packages && yarn dev:storybook",
+    "dev:storybook": "nx storybook @toytoy/storybook",
+    "dev:packages": "nx run-many --target=dev --projects='@toytoy/react-components-*'"
   },
   "license": "ISC",
   "packageManager": "yarn@3.6.3",

@@ -1,0 +1,25 @@
+{
+  "name": "@toytoy/storybook",
+  "packageManager": "yarn@3.6.3",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.3.1",
+    "@storybook/addon-essentials": "^8.0.6",
+    "@storybook/addon-interactions": "^8.0.6",
+    "@storybook/addon-links": "^8.0.6",
+    "@storybook/addon-onboarding": "^8.0.6",
+    "@storybook/blocks": "^8.0.6",
+    "@storybook/react": "^8.0.6",
+    "@storybook/react-vite": "^8.0.6",
+    "@storybook/test": "^8.0.6",
+    "@toytoy/react-components-layout": "workspace:^",
+    "@toytoy/themes": "workspace:^",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.0.6",
+    "storybook-addon-root-attributes": "^2.1.3",
+    "vite": "^5.2.8"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}

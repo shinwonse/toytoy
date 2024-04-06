@@ -11,7 +11,7 @@
     "default": {
       "runner": "nx/tasks-runner/default",
       "options": {
-        "cacheableOperations": ["build"]
+        "cacheableOperations": ["build", "dev"]
       }
     }
   },

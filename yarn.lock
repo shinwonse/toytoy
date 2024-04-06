@@ -376,11 +376,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@toytoy/esbuild-config@workspace:^, @toytoy/esbuild-config@workspace:packages/esbuild-config":
+  version: 0.0.0-use.local
+  resolution: "@toytoy/esbuild-config@workspace:packages/esbuild-config"
+  dependencies:
+    esbuild: 0.16.17
+  languageName: unknown
+  linkType: soft
+
 "@toytoy/themes@workspace:packages/themes":
   version: 0.0.0-use.local
   resolution: "@toytoy/themes@workspace:packages/themes"
   dependencies:
-    esbuild: ^0.16.17
+    "@toytoy/esbuild-config": "workspace:^"
     typescript: ^5.4.4
   languageName: unknown
   linkType: soft
@@ -1456,7 +1464,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.16.17":
+"esbuild@npm:0.16.17":
   version: 0.16.17
   resolution: "esbuild@npm:0.16.17"
   dependencies:

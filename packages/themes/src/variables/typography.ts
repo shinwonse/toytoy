@@ -25,3 +25,4 @@ export const lineHeight = {
   120: "120%",
   100: "100%",
 };
+

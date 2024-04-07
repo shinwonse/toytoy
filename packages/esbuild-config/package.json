@@ -1,5 +1,5 @@
 {
-  "name": "@toytoy/esbuild-config",
+  "name": "@fastcampus/esbuild-config",
   "packageManager": "yarn@3.6.3",
   "main": "index.js",
   "files": [

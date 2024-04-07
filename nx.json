@@ -7,16 +7,19 @@
     "appsDir": "services",
     "libsDir": "packages"
   },
-  "taskRunnerOptions": {
+  "tasksRunnerOptions": {
     "default": {
-      "runner": "nx/tasks-runner/default",
+      "runner": "nx/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "dev"]
+        "cacheableOperations": ["build", "test", "dev"]
       }
     }
   },
-  "targetDefault": {
+  "targetDefaults": {
     "build": {
+      "dependsOn": ["^build"]
+    },
+    "test": {
       "dependsOn": ["^build"]
     }
   }

@@ -1,9 +1,9 @@
 const { build } = require('esbuild');
 
 const run = ({
-   entryPoints = ['src/index.ts'],
-   pkg,
-   config = {},
+  entryPoints = ['src/index.ts'],
+  pkg,
+  config = {},
 }) => {
   const dev = process.argv.includes("--dev");
   const minify = !dev;
